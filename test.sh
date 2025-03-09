@@ -1,5 +1,6 @@
 #ENDPOINT=http://127.0.0.1:8000/send-message
-ENDPOINT=https://pyf28n8elf.execute-api.us-east-1.amazonaws.com/api/send-message
+#ENDPOINT=https://pyf28n8elf.execute-api.us-east-1.amazonaws.com/api/send-message
+ENDPOINT=https://whatsapp.cloudmatica.com/send-message
 
 curl -X POST $ENDPOINT \
      -H "Content-Type: application/json" \

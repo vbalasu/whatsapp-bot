@@ -10,3 +10,5 @@ TWILIO_ACCOUNT_ID
 TWILIO_AUTH_TOKEN
 TWILIO_WHATSAPP_NUMBER
 ```
+
+Deployed to https://whatsapp.cloudmatica.com

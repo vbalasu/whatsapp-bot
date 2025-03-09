@@ -12,7 +12,7 @@ TWILIO_ACCOUNT_SID = os.environ.get("TWILIO_ACCOUNT_SID")
 TWILIO_AUTH_TOKEN = os.environ.get("TWILIO_AUTH_TOKEN")
 TWILIO_WHATSAPP_NUMBER = os.environ.get("TWILIO_WHATSAPP_NUMBER")
 
-@app.route("/send-message", methods=["POST"])
+@app.route("/send-message", methods=["POST"], cors=True)
 def send_message():
     request = app.current_request.json_body
     to_number = request.get("to")
